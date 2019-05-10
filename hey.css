@@ -54,10 +54,10 @@ a{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: pink;
+  background-image: linear-gradient(pink, #ea85b3);
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 90px;
   text-align:center;
 }
 
@@ -68,7 +68,7 @@ a{
   color: black;
   display: block;
   transition: 0.3s;
-
+padding-top: 70px;
 }
 
 .sidenav a:hover{
@@ -97,7 +97,7 @@ a{
   height: auto;
 }
 .tester{
-  width: 420px;
+  width: 100%;
   height: auto;
 }
 .container {
@@ -180,19 +180,20 @@ a{
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
-.nine{
-  grid-column: 3 / 11;
-  grid-row: 1 / 3;
+.niglnine{
+  grid-column: 2 / 12;
+  grid-row: 1 / 5;
 }
-.ten{
+.niglten{
   grid-column: 4/10;
-  grid-row: 3 / 10;
+  grid-row: 5 / 13;
   font-family: helvetica;
   line-height: 1.6;
+  background-color: white;
 }
-.eleven{
+.nigleleven{
   grid-column: 1 / 4;
-  grid-row: 3 / 4;
+  grid-row: 5/ 6;
 }
 @media (max-width: 568px) {
   .wrapper {display: block;}
@@ -206,7 +207,7 @@ a{
   padding-bottom: 20px;
 }
 .nigelstoryy{
-  width: 1140px;
+  width: 100%;
   height: auto;
 }
 .authorinfo{
@@ -269,7 +270,7 @@ a{
   padding-bottom: 20px;
 }
 .breadstoryy{
-  width: 1140px;
+  width: 100%;
   height: auto;
 }
 .authorinfo{
@@ -277,9 +278,9 @@ a{
   border-bottom: 5px solid pink;
 }
 .instoryimg{
-  width: 350px;
+  width: 100%;
   height: auto;
-  margin-left: 110px;
+
 }
 /* --------------------------------------------------------About page--------------------*/
 
@@ -359,3 +360,110 @@ grid-column:5/ 9 ;
  background-color: black
 }
 
+/* --------------------------------------------------------Chris Story--------------------*/
+  * {box-sizing: border-box;}
+.wrapper {
+  max-width: 98%;
+  margin: 0 auto;
+}
+.wrapper > div {
+  border: none;
+  border-radius: 5px;
+  background-color:none;
+  padding: 1em;
+  color: none;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 4fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.chrisone{
+  grid-column: 2 / 12;
+  grid-row: 1 / 3;
+}
+.ten{
+  grid-column: 4/10;
+  grid-row: 3 / 10;
+  font-family: helvetica;
+  line-height: 1.6;
+}
+.eleven{
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+}
+@media (max-width: 568px) {
+  .wrapper {display: block;}
+}
+
+.christittle{
+  font-size: 60px;
+  font-family: futura;
+  text-align: center;
+  border-bottom: solid;
+  padding-bottom: 20px;
+
+}
+.chrisstoryy{
+  width: 100%;
+  height: auto;
+}
+.authorinfo{
+  border-top: 5px solid pink;
+  border-bottom: 5px solid pink;
+}
+/* --------------------------------------------------------Mahlet Story--------------------*/
+  * {box-sizing: border-box;}
+.wrapper {
+  max-width: 98%;
+  margin: 0 auto;
+}
+.wrapper > div {
+  border: none;
+  border-radius: 5px;
+  background-color:none;
+  padding: 1em;
+  color: none;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 4fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.chrisone{
+  grid-column: 2 / 12;
+  grid-row: 1 / 3;
+}
+.ten{
+  grid-column: 4/10;
+  grid-row: 3 / 10;
+  font-family: helvetica;
+  line-height: 1.6;
+
+}
+.eleven{
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+}
+@media (max-width: 568px) {
+  .wrapper {display: block;}
+}
+
+.mahlettittle{
+  font-size: 60px;
+  font-family: futura;
+  text-align: center;
+  border-bottom: solid;
+  padding-bottom: 20px;
+
+}
+.mahletstoryy{
+  width: 100%;
+  height: auto;
+}
+.authorinfo{
+  border-top: 5px solid pink;
+  border-bottom: 5px solid pink;
+}
