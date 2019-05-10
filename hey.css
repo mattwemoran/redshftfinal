@@ -87,18 +87,21 @@ padding-top: 70px;
   .sidenav a {font-size: 18px;}
 }
 /* NAV BAR end*/
-.nigelstory{
-  width: 660px;
+.nigelstoryhome{
+  width: 100%;
   height: auto;
-  margin-right: 50px
+  
+  border-radius: 5%;
 }
 .sketchstory{
   width: 660px;
   height: auto;
+ border-radius: 5%;
 }
 .tester{
   width: 100%;
   height: auto;
+  border-radius: 5%;
 }
 .container {
   position: relative;
